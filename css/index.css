@@ -1,0 +1,246 @@
+body{
+    width: 1902px;
+    height: 1080px;
+}
+
+.qzxy-background {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    margin-right: -10px;
+    background-image: url("../qzxy.img/background.png");
+}
+.qzxy-sign-up-entry{
+    width:746px;
+    height: 170px;
+    position: absolute;
+    top:92px;
+    left:290px;
+}
+.left-balloon{
+    width:92px;
+    height:150px;
+    position: absolute;
+    top:28px;
+    left:188px;
+}
+.right-balloon{
+    width:284px;
+    height:326px;
+    position: absolute;
+    right: 240px;
+    top:254px;
+}
+
+.public-reference{
+    width: 100px;
+    height: 1px;
+    margin-top: 0;
+    position: absolute;
+}
+
+.qzxy-form{
+    width: 920px;
+    height: 663px;
+    position: relative;
+    margin-left: 511px;
+    margin-top: 284px;
+    background-image: url("../qzxy.img/边框.png");
+}
+
+input,textarea{
+    text-indent: 2em;
+}
+input,select,.picture,textarea{
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+
+#name{
+    height: 45px;
+    width: 156px;
+}
+
+#major{
+    height: 45px;
+    width: 156px;
+}
+
+#class{
+    height: 45px;
+    width: 156px;
+}
+.select1{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 45px;
+    width: 156px;
+}
+/*改变下拉框图标*/
+.select1::-ms-expand{
+    display: none;
+}
+
+.form-name{
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 64px;
+}
+
+.form-sex{
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 320px;
+}
+
+.form-major{
+    position: absolute;
+    margin-top: 168px;
+    margin-left: 64px;
+}
+
+.form-class{
+    position: absolute;
+    margin-top: 168px;
+    margin-left: 320px;
+}
+
+.photo-word{
+    width: 24px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 614px;
+}
+
+.picture{
+    width: 174px;
+    height: 204px;
+    background: #fff;
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 638px;
+    padding-right: 8px;
+}
+
+.icon-icon-test{
+    width: 100%;
+    height: 100%;
+    position:absolute ;
+    z-index: 1;
+}
+
+#file-up{
+    width:100% ;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.tel{
+    position: absolute;
+    margin-top: 246px;
+    margin-left: 64px;
+}
+
+#tel{
+    height: 45px;
+    width: 418px;
+}
+
+.volunteer{
+    position: absolute;
+    margin-top: 334px;
+    margin-left: 64px;
+}
+
+.select2,.select3{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 45px;
+    width: 306px;
+}
+
+.select2::-ms-expand{
+    display: none;
+}
+.s2-reference{
+    display: inline-block;
+    position: relative;
+}
+
+.s2-arrow{
+    position: absolute;
+    right: 20px;
+}
+
+.select3::-ms-expand{
+    display: none;
+}
+
+.s3-reference{
+    display: inline-block;
+    position: relative;
+}
+
+.s3-arrow{
+    position: absolute;
+    right: 20px;
+}
+
+
+.reported-reason{
+    text-align: center;
+    padding-top: 400px;
+}
+
+.reason-area{
+    overflow-y: hidden;
+    width: 782px;
+    height: 112px;
+}
+
+.button1{
+    width: 152px;
+    height: 56px;
+    font-size: 30px;
+    border: none;
+    border-radius: 0;
+    text-indent: 0;
+    background-color: rgba(80,175,244,1);
+}
+.finish{
+    width: 152px;
+    height: 56px;
+    margin: 0 auto;
+    padding-top: 18px;
+ }
+.qzxy-form-color{
+    width: 920px;
+    height: 663px;
+    position: relative;
+    margin-top: 284px;
+    margin-left: 511px;
+    background-image: url("../qzxy.img/边框背景.png");
+}
+
+
+@font-face {
+    font-family: "iconfont";
+    src: url('../font_67ef4d6dkg8/iconfont.eot?t=1543278914422'); /* IE9*/
+    src: url('../font_67ef4d6dkg8/iconfont.eot?t=1543278914422#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAATIAAsAAAAABzAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFY8/0h7Y21hcAAAAYAAAABLAAABcOext0VnbHlmAAABzAAAARMAAAE4CqNxXmhlYWQAAALgAAAALwAAADYTZKiBaGhlYQAAAxAAAAAcAAAAJAfeA4NobXR4AAADLAAAAAgAAAAICAAAAGxvY2EAAAM0AAAABgAAAAYAnAAAbWF4cAAAAzwAAAAeAAAAIAEOAHBuYW1lAAADXAAAAUUAAAJtPlT+fXBvc3QAAASkAAAAIgAAADML6NXseJxjYGRgYOBikGPQYWB0cfMJYeBgYGGAAJAMY05meiJQDMoDyrGAaQ4gZoOIAgCKIwNPAHicY2BkYWCcwMDKwMHUyXSGgYGhH0IzvmYwYuRgYGBiYGVmwAoC0lxTGByedT7rZG7438AQw9zA0AAUZgTJAQDyjQz1eJxjYGBgZWBgYAZiHSBmYWBgDGFgZAABP6AoI1icmYELLM7CoARWwwISf9b5/z+MBPJZwCQDIxvDKOABkzJQHjisIJiBEQB3+wuNAHicHYtRboJAFEXnzQzMgDCSiIAtiNOkIDG0ATOgibQ/xsR1WL/cgV9dg+voV1fgDvrT5Wja0eTem7yXcxBG6O+HnEmFCrRDyJDqDVqdF8izPGtapdvU4RjYUNdkAtgY9Bk+S43c0yotvMNcW032eps8e9JgCnpu6FxPCsPgbgsg58unuK4xAVG6oWsRz+Sz5reZcdPD3I2cUjN4fRWXbxJbXa120WMfGFEO8bFFKeUcU0NOv6bSMIBz/bGwTxxFTeg/RB+q7qrwcHINzxabqiejNoDJUa1W6jiBoI1kr9oI2zPc0yFMulQW1Fz6NoPtYgCO8GLGRsm+KMtin4wYiz3hwGCxBWb7S5MWMu0QQv8zgyleAHicY2BkYGAA4v0e927G89t8ZeBmYQCBG0qbnBD0//MsDMyGQC4HAxNIFAA7oQpbAHicY2BkYGBu+N/AEMPCAAJAkpEBFTABAEcIAmsEAAAABAAAAAAAAAAAnAAAeJxjYGRgYGBiSAFiBjCLgYELCBkY/oP5DAAScgF/AAB4nGWPTU7DMBCFX/oHpBKqqGCH5AViASj9EatuWFRq911036ZOmyqJI8et1ANwHo7ACTgC3IA78EgnmzaWx9+8eWNPANzgBx6O3y33kT1cMjtyDRe4F65TfxBukF+Em2jjVbhF/U3YxzOmwm10YXmD17hi9oR3YQ8dfAjXcI1P4Tr1L+EG+Vu4iTv8CrfQ8erCPuZeV7iNRy/2x1YvnF6p5UHFockikzm/gple75KFrdLqnGtbxCZTg6BfSVOdaVvdU+zXQ+ciFVmTqgmrOkmMyq3Z6tAFG+fyUa8XiR6EJuVYY/62xgKOcQWFJQ6MMUIYZIjK6Og7VWb0r7FDwl57Vj3N53RbFNT/c4UBAvTPXFO6stJ5Ok+BPV8bUnV0K27LnpQ0kV7NSRKyQl7WtlRC6gE2ZVeOEXpc0Yk/KGdI/wAJWm7IAAAAeJxjYGKAAC4G7ICJkYmRmYEzMzk/T7cktbiEgQEAHAEDtQAA') format('woff'),
+    url('../font_67ef4d6dkg8/iconfont.ttf?t=1543278914422') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('../font_67ef4d6dkg8/iconfont.svg?t=1543278914422#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+/*这里不明白为什么就可以*/
+.iconfont1{
+    font-family: "iconfont", serif !important;
+    font-size:160px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-test:before { content: "\e689"; }
